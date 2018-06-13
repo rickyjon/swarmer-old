@@ -11,5 +11,8 @@
     "swarmer"
   ],
   "author": "James O'Neill, Ricky Jon, Hristijan Gjorgjievski",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bencode": "^2.0.0"
+  }
 }
