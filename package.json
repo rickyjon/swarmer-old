@@ -1,0 +1,15 @@
+{
+  "name": "swarmer",
+  "version": "1.0.0",
+  "description": "BitTorrent client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "swarmer"
+  ],
+  "author": "James O'Neill, Ricky Jon, Hristijan Gjorgjievski",
+  "license": "ISC"
+}
