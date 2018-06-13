@@ -2,5 +2,12 @@
 const fs = require('fs');
 const bencode = require('bencode');
 
-const torrent = fs.readFileSync('puppy.torrent');
-console.log(torrent.toString('utf8'));
+var args = process.argv.splice(2);
+var torrent; 
+var file = args[0];
+try {
+		torrent = fs.readFileSync(file);
+		console.log(torrent.toString('utf8'));
+} catch(e) {
+		console.log(e)
+}
